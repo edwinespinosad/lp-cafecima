@@ -5,8 +5,6 @@ import Navbar from './components/Navbar.vue';
 <template>
 
 <Navbar></Navbar>
-<Slider></Slider>
-<OurProducts></OurProducts>
 
 </template>
 
