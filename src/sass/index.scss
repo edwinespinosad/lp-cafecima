@@ -1,0 +1,16 @@
+@use 'vuetify' with (
+  $utilities: false,
+  $color-pack: false,
+);
+
+.v-carousel__controls {
+    display: flex!important;
+    flex-direction: row!important ;
+    background: red!important;
+    margin: 0;
+    
+}
+
+
+
+
