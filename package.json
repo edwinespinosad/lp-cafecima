@@ -11,9 +11,14 @@
     "bootstrap": "^5.2.3",
     "sass": "^1.62.1",
     "vue": "^3.2.47",
+<<<<<<< HEAD
     "vue-carousel": "^0.18.0",
     "vue-router": "^4.1.6",
     "vuetify": "^3.1.14"
+=======
+    "vue-router": "^4.1.6",
+    "vuetify": "^3.1.15"
+>>>>>>> 808cd94719dda9a22b29f0187faad3aa6c9f32f5
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",

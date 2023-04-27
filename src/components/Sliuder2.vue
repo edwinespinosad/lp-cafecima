@@ -6,7 +6,7 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-        <div class="carousel-item active ">
+        <div class="carousel-item active d-flex align-items-center justify-content-center">
             <img src="../assets/image/banner 1.jpg" class="d-block w-100 " alt="...">
             <div class="carousel-caption d-none d-md-block ">
                 <h2 class=""> CIMA 99 Sentimientos hechos café</h2>
