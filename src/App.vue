@@ -5,6 +5,10 @@ import Slider2 from './components/Sliuder2.vue';
 import 'bootstrap/dist/css/bootstrap.css'
 import Banner from "./components/Banner.vue";
 import Banner2 from "./components/Banner2.vue";
+import SliderBag from "./components/SliderBag.vue";
+import Img from "./components/Img.vue";
+import videoCafeSrc from "./components/VideoCafe.vue";
+import FooterPage from "./components/FooterPage.vue";
 </script>
 
 <template>
@@ -12,12 +16,14 @@ import Banner2 from "./components/Banner2.vue";
         <Navbar></Navbar>
         
         <Slider2/>
-        <OurProducts></OurProducts>
-        <Banner/>
-        <Banner2/>
+        <SliderBag/>
+        <Img/>
+        <videoCafeSrc/>
+        <FooterPage/>
     </v-app>
 </template>
     
 
 <style scoped>
+
 </style>
