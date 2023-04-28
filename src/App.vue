@@ -1,8 +1,7 @@
 <script setup>
-import Navbar from './components/Navbar.vue';
-//import Slider from './components/Slider.vue';
-import Slider2 from './components/Sliuder2.vue';
-import 'bootstrap/dist/css/bootstrap.css'
+import Navbar from "./components/Navbar.vue";
+import Slider from './components/Slider.vue';
+import Slider2 from "./components/Sliuder2.vue";
 import Banner from "./components/Banner.vue";
 import Banner2 from "./components/Banner2.vue";
 import SliderBag from "./components/SliderBag.vue";
@@ -19,6 +18,8 @@ import FooterPage from "./components/FooterPage.vue";
         <SliderBag/>
         <Img/>
         <videoCafeSrc/>
+        <Banner/>
+        <Banner2/>
         <FooterPage/>
     </v-app>
 </template>
