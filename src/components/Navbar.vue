@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg background-primary">
+  <nav class="navbar navbar-expand-lg background-primary ">
     <div class="container">
       <a class="navbar-brand text-white" href="#">
         <v-img :width="100" aspect-ratio="1/1" cover src="logo.png"></v-img>

@@ -15,7 +15,12 @@
                     <h2 class="card-title p-0 fw-bold">CIMA 99 Sentimientos hechos café</h2>
                     <div class="boxColor"></div>
                     <p class="card-text">Tenemos por objetivo dignificar a los productores, por lo que cada cosecha es seleccionada con la base en altos parámetros de expertos que toman en cuanta la tierra y la altura, entorno que se absorven las raices de la planta, la cosecha manual, el lavado y secado cuidadoso.  </p>
-                    <button class="bootonBorder border border-primary border-2 rounded-4 p-2">CONTACTANOS</button>
+                    <button class="bootonBorder border border-primary border-2 rounded-4 p-2">
+                        <v-icon>
+                            mdi-whatsapp
+                        </v-icon>
+                        CONTACTANOS
+                    </button>
                 </div>
             </div>
               
@@ -28,7 +33,12 @@
                 <h2 class="card-title p-0">CIMA 99 Sentimientos hechos café</h2>
                 <div class="boxColor"></div>
                 <p class="card-text">Tenemos por objetivo dignificar a los productores, por lo que cada cosecha es seleccionada con la base en altos parámetros de expertos que toman en cuanta la tierra y la altura, entorno que se absorven las raices de la planta, la cosecha manual, el lavado y secado cuidadoso.  </p>
-                <button class="bootonBorder border border-primary border-2 rounded-4 p-2">CONTACTANOS</button>
+                <button class="bootonBorder border border-primary border-2 rounded-4 p-2">
+                        <v-icon>
+                            mdi-whatsapp
+                        </v-icon>
+                    CONTACTANOS
+                </button>
             </div>
         </div>
             
@@ -41,7 +51,12 @@
                 <h2 class="card-title p-0">CIMA 99 Sentimientos hechos café</h2>
                 <div class="boxColor"></div>
                 <p class="card-text">Tenemos por objetivo dignificar a los productores, por lo que cada cosecha es seleccionada con la base en altos parámetros de expertos que toman en cuanta la tierra y la altura, entorno que se absorven las raices de la planta, la cosecha manual, el lavado y secado cuidadoso.  </p>
-                <button class="bootonBorder border border-primary border-2 rounded-4 p-2">CONTACTANOS</button>
+                <button class="bootonBorder border border-primary border-2 rounded-4 p-2">
+                        <v-icon>
+                            mdi-whatsapp
+                        </v-icon>
+                    CONTACTANOS
+                </button>
             </div>
         </div>
         </div>
