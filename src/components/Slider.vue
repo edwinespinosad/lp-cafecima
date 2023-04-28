@@ -49,7 +49,7 @@
     </v-carousel-item>
   </v-carousel>
 </template>
-<script>
+<script >
 export default {
   data() {
     return {
