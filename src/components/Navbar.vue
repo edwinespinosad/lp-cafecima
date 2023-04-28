@@ -23,7 +23,7 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#banner-1">Nuestros Productos</a>
+            <a class="nav-link text-white" href="#our-products">Nuestros Productos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#">Contacto</a>
