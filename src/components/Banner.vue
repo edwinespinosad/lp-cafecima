@@ -37,7 +37,6 @@
       <div>
         <v-btn
           id="btn"
-          prepend-icon="mdi-vuetify"
           rounded="xl"
           variant="outlined"
           color="#754319"
@@ -47,6 +46,7 @@
             target="_blank"
             class="text-decoration-none text-white"
           >
+          <v-icon>mdi-whatsapp</v-icon>
             COTIZA POR WHATSAPP
           </a>
         </v-btn>
