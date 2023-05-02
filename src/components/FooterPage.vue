@@ -5,7 +5,7 @@
     {{ new Date().getFullYear() }} <span class="m-1">&#169;</span> CIMA
     <Span class="position-relative m-1 top-3px">99</Span> Todos los derechos
     reservados
-  </div>
+</footer>
 </template>
 <script>
 </script>
