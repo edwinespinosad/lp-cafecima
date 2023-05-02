@@ -13,7 +13,7 @@ import FooterPage from "./components/FooterPage.vue";
 <template>
   <v-app>
     <Navbar></Navbar>
-    <Slider2 />
+    <!-- <Slider2 /> -->
     <Slider />
     <SliderBag />
     <Banner />

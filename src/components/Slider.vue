@@ -1,47 +1,64 @@
 <template>
-  <!-- <div class="d-flex justify-space-around align-center py-4">
-    <v-btn
-      variant="text"
-      icon="mdi-minus"
-      @click="model = Math.max(model - 1, 0)"
-      >-</v-btn
-    >
-    {{ model }}
-    <v-btn
-      variant="text"
-      icon="mdi-plus"
-      @click="model = Math.min(model + 1, 2)"
-      >+</v-btn
-    >
-  </div> -->
+  <!-- <div class="vh-100"> -->
+    <v-carousel
+      v-model="model"
+      class="carousel position-relative vh-85"
+      cycle
+      interval="3000"
 
-  <v-carousel
-    v-model="model"
-    class="carousel"
-    cycle
-    interval="3000"
-    height="600"
-  >
-    <v-carousel-item v-for="(item, i) in items" :key="i" :src="item.src" cover>
-      <div
-        style="height: 100%"
-        class="d-flex justify-content-center flex-column text-white container"
+      hide-delimiter-background
+      hide-delimiters
+      color="#BB916D"
+    >
+      <v-carousel-item
+        v-for="(item, i) in items"
+        :key="i"
+        :src="item.src"
+        cover
       >
-        <h2 class="fw-bold w-50">{{ item.title }}</h2>
-        <span class="line-under-text my-2"></span>
-        <div class="w-50">
-          <p>{{ item.p }}</p>
+        <div
+          style="height: 100%"
+          class="d-flex justify-content-center flex-column text-white container"
+        >
+          <h2 class="fw-bold w-50">{{ item.title }}</h2>
+          <span class="line-under-text my-2"></span>
+          <div class="w-50">
+            <p>{{ item.p }}</p>
+            <v-btn id="btn" rounded="xl" variant="outlined" color="#754319">
+              <a
+                :href="whatsapp"
+                target="_blank"
+                class="text-decoration-none text-white"
+              >
+                <v-icon>mdi-whatsapp</v-icon>
+                COTIZA POR WHATSAPP
+              </a>
+            </v-btn>
+          </div>
         </div>
-      </div>
-    </v-carousel-item>
-  </v-carousel>
+      </v-carousel-item>
+
+      <v-radio-group
+        inline
+        v-model="selected"
+        class="position-absolute bottom-0 end-0 pr-5"
+        style="z-index: 1"
+      >
+        <v-radio value="0" color="#BB916D"></v-radio>
+        <v-radio value="1" color="#BB916D"></v-radio>
+        <v-radio value="2" color="#BB916D"></v-radio>
+      </v-radio-group>
+    </v-carousel>
+  <!-- </div> -->
 </template>
 <script >
 export default {
   data() {
     return {
+      selected: 0,
       model: 0,
       model2: "0",
+      whatsapp: "https://wa.me/c/5214421681339",
       items: [
         {
           src: "src/assets/image/inicio.jpg",
@@ -61,6 +78,15 @@ export default {
         },
       ],
     };
+  },
+  watch: {
+    model(newVal, oldVal) {
+      this.model2 = newVal;
+      this.selected = newVal.toString();
+    },
+    selected(newVal, oldVal) {
+      this.model = parseInt(newVal);
+    },
   },
 };
 </script>
