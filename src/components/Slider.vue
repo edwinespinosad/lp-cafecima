@@ -1,7 +1,7 @@
 <template>
   <v-carousel
     v-model="model"
-    class="carousel position-relative vh-85 mb-5"
+    class="position-relative vh-85 mb-5"
     cycle
     interval="3000"
     hide-delimiter-background
@@ -11,7 +11,7 @@
     <v-carousel-item v-for="(item, i) in items" :key="i" :src="item.src" cover>
       <div
         style="height: 100%"
-        class="d-flex justify-content-center flex-column text-white container"
+        class="d-flex justify-content-center flex-column text-white container align-items-xs-center align-items-lg-start"
       >
         <h2 class="fw-bold w-50">{{ item.title }}</h2>
         <span class="line-under-text my-2"></span>
@@ -21,10 +21,20 @@
             <a
               :href="this.wa"
               target="_blank"
-              class="text-decoration-none text-white"
+              class="text-decoration-none text-white a-large"
             >
               <v-icon>mdi-whatsapp</v-icon>
               COTIZA POR WHATSAPP
+            </a>
+
+            <a
+              :href="this.wa"
+              target="_blank"
+              class="text-decoration-none text-white a-small"
+            >
+              <v-icon>mdi-whatsapp</v-icon>
+              COTIZA POR <br />
+              WHATSAPP
             </a>
           </v-btn>
         </div>
@@ -55,18 +65,18 @@ export default {
       whatsapp: "https://wa.me/c/5214421681339",
       items: [
         {
-          src: "src/assets/image/inicio.jpg",
+          src: "/inicio.jpg",
           title: "CIMA 99 Sentimientos hechos café",
           p: "Somos una empresa boutique enfocada en selección de pequeños lotes de cafetales, que son cuidadosamente analizados, y que cuentan con tres elementos en cómun: amor por el cáfe y cuidado en su producción",
         },
         {
-          src: "src/assets/image/banner-2.jpg",
+          src: "/banner-3.png",
           title: "CIMA 99 Sentimientos hechos café",
           p: "Somos una empresa boutique enfocada en selección de pequeños lotes de cafetales, que son cuidadosamente analizados, y que cuentan con tres elementos en cómun: amor por el cáfe y cuidado en su producción",
           button: "CONTACTANOS",
         },
         {
-          src: "src/assets/image/banner 1.jpg",
+          src: "/banner-1.jpg",
           title: "CIMA 99 Sentimientos hechos café",
           p: "Somos una empresa boutique enfocada en selección de pequeños lotes de cafetales, que son cuidadosamente analizados, y que cuentan con tres elementos en cómun: amor por el cáfe y cuidado en su producción",
         },

@@ -12,7 +12,7 @@ import ButtonWA from "./components/ButtonWA.vue";
 </script>
 
 <template>
-  <v-app class="bg-app">
+  <v-app class="bg-app m-0 p-0">
     <Navbar></Navbar>
     <Slider :wa="whatsapp" />
     <SliderBag />

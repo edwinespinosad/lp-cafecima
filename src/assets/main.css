@@ -15,9 +15,11 @@
 .bg-app {
   background-color: #0c0b0b !important;
 }
-.bg-gray{
+
+.bg-gray {
   background-color: #333333 !important;
 }
+
 p {
   font-size: 20px !important;
 }
@@ -28,4 +30,62 @@ p {
 
 .vh-100 {
   height: 100vh !important;
+}
+
+.navbar-toggler-icon {
+  color: red !important;
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.a-small {
+  display: none;
+}
+
+.a-large {
+  display: block;
+}
+
+@media (max-width: 500px) {
+  .a-small {
+    display: block;
+  }
+
+  .a-large {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .align-items-xs-center {
+    align-items: center;
+  }
+
+  p {
+    font-size: 16px !important;
+  }
+
+  .mx-xs-auto {
+    margin: 0 auto;
+  }
+
+  .container-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .m-xs-5 {
+    margin: 3rem !important;
+  }
+
+
 }

@@ -19,10 +19,20 @@
           <a
             :href="this.wa"
             target="_blank"
-            class="text-decoration-none text-white"
+            class="text-decoration-none text-white a-large"
           >
             <v-icon>mdi-whatsapp</v-icon>
             COTIZA POR WHATSAPP
+          </a>
+
+          <a
+            :href="this.wa"
+            target="_blank"
+            class="text-decoration-none text-white a-small"
+          >
+            <v-icon>mdi-whatsapp</v-icon>
+            COTIZA POR <br />
+            WHATSAPP
           </a>
         </v-btn>
         <img

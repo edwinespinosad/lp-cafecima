@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg background-primary ">
+  <nav class="navbar navbar-expand-lg background-primary bg-body-tertiary">
     <div class="container">
       <a class="navbar-brand text-white" href="#">
         <v-img :width="100" aspect-ratio="1/1" cover src="logo.png"></v-img>
@@ -13,7 +13,7 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon "></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto gap-5">

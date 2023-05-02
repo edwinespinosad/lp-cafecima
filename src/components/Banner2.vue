@@ -65,9 +65,5 @@ export default {
   display: block;
   background-color: #bb916d;
 }
-.container-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
+
 </style>

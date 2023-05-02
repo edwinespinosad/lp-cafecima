@@ -19,14 +19,14 @@
     ></div>
     <div
       style="position: relative; z-index: 1; height: 400px"
-      class="container py-5 d-flex flex-column justify-content-center"
+      class="container py-lg-5 d-flex flex-column justify-content-center"
     >
       <h2 class="fw-bold w-50">
         Descubre el sabor del mejor <br />
         café mexicano
       </h2>
       <span class="line-under-text my-2"></span>
-      <div class="w-50">
+      <div class="w-lg-50">
         <p>
           Tenemos por objetivo dignificar a los productores, por lo que cada
           cosecha es seleccionada con base en altos parámetros de expertos que
@@ -34,7 +34,7 @@
           raíces de la planta, la cosecha manual, el lavado y secado cuidadoso.
         </p>
       </div>
-      <div>
+      <div class="mx-xs-auto">
         <v-btn id="btn" rounded="xl" variant="outlined" color="#754319">
           <a
             :href="this.wa"
