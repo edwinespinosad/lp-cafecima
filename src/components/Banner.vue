@@ -2,7 +2,7 @@
   <div
     id="banner-1"
     style="position: relative; height: 400px"
-    class="text-white"
+    class="text-white py-5 my-5"
   >
     <div
       style="
@@ -35,18 +35,13 @@
         </p>
       </div>
       <div>
-        <v-btn
-          id="btn"
-          rounded="xl"
-          variant="outlined"
-          color="#754319"
-        >
+        <v-btn id="btn" rounded="xl" variant="outlined" color="#754319">
           <a
-            :href="whatsapp"
+            :href="this.wa"
             target="_blank"
             class="text-decoration-none text-white"
           >
-          <v-icon>mdi-whatsapp</v-icon>
+            <v-icon>mdi-whatsapp</v-icon>
             COTIZA POR WHATSAPP
           </a>
         </v-btn>
@@ -57,6 +52,9 @@
 
 <script>
 export default {
+  props: {
+    wa: String,
+  },
   data() {
     return {
       banner: "banner-1.jpg",
