@@ -1,6 +1,5 @@
 <template>
   <div
-    id="banner-2"
     style="position: relative; height: 400px"
     class="text-white py-5 my-5"
   >
