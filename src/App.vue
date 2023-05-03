@@ -5,6 +5,7 @@ import Slider2 from "./components/Sliuder2.vue";
 import Banner from "./components/Banner.vue";
 import Banner2 from "./components/Banner2.vue";
 import SliderBag from "./components/SliderBag.vue";
+import SliderBag2 from "./components/Sliderbag2.vue";
 import Img from "./components/Img.vue";
 import videoCafeSrc from "./components/VideoCafe.vue";
 import FooterPage from "./components/FooterPage.vue";
@@ -16,6 +17,7 @@ import FooterPage from "./components/FooterPage.vue";
     <!-- <Slider2 /> -->
     <Slider />
     <SliderBag />
+    <SliderBag2 />
     <Banner />
     <videoCafeSrc />
     <Banner2 />
