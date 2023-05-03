@@ -1,5 +1,5 @@
 <template>
-    <div id="carouselExampleCaptionsB" class="carousel slide colorSlider">
+    <div id="carouselExampleCaptionsB" class="carousel slide colorSlider py-5 my-5">
     <div class="carousel-indicators ">
         <button type="button" data-bs-target="#carouselExampleCaptionsB" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptionsB" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -13,7 +13,7 @@
               <div class="row g-0">
                 <div class="col-md-4">
                   <img
-                    src="../assets/image/bolsas-café.png"
+                    src="/bolsas-cafe.png"
                     class="img-fluid rounded-start"
                     alt="..."
                   />
@@ -40,7 +40,7 @@
               <div class="row g-0">
                 <div class="col-md-4">
                   <img
-                    src="../assets/image/bolsas-café.png"
+                    src="/bolsas-cafe.png"
                     class="img-fluid rounded-start"
                     alt="..."
                   />
@@ -70,7 +70,7 @@
               <div class="row g-0">
                 <div class="col-md-4">
                   <img
-                    src="../assets/image/bolsas-café2.png"
+                    src="/bolsas-cafe2.png"
                     class="img-fluid rounded-start"
                     alt="..."
                   />
@@ -97,7 +97,7 @@
               <div class="row g-0">
                 <div class="col-md-4">
                   <img
-                    src="../assets/image/bolsas-café2.png"
+                    src="/bolsas-cafe2.png"
                     class="img-fluid rounded-start"
                     alt="..."
                   />
@@ -129,7 +129,7 @@
                     <div class="card mb-3 bg-black " style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="d-flex align-items-center col-md-4 p-1 colorImage rounded-start-2">
-                            <img src="../assets/image/bolsas-café.png" class="img-fluid rounded-start" alt="...">
+                            <img src="/bolsas-cafe.png" class="img-fluid rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                             <div class="card-body">
@@ -146,7 +146,7 @@
                 <div class="card mb-3 bg-black rounded-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="d-flex align-items-center col-md-4 p-1 colorImage rounded-start-2">
-                            <img src="../assets/image/bolsas-café2.png" class="img-fluid rounded-start" alt="...">
+                            <img src="/bolsas-cafe2.png" class="img-fluid rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                             <div class="card-body">
@@ -166,7 +166,7 @@
                     <div class="card mb-3 bg-black" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="d-flex align-items-center col-md-4 p-1 colorImage rounded-start-2">
-                            <img src="../assets/image/bolsas-café.png" class="img-fluid rounded-start" alt="...">
+                            <img src="/bolsas-cafe.png" class="img-fluid rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                             <div class="card-body">
@@ -183,7 +183,7 @@
                 <div class="card mb-3 bg-black" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="d-flex align-items-center col-md-4 p-1 colorImage rounded-start-2">
-                        <img src="../assets/image/bolsas-café2.png" class="img-fluid rounded-start" alt="...">
+                        <img src="/bolsas-cafe2.png" class="img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-8">
                         <div class="card-body">
@@ -206,7 +206,7 @@
                     <div class="card mb-3 bg-black " style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="d-flex align-items-center col-md-4 p-1 colorImage rounded-start-2">
-                            <img src="../assets/image/bolsas-café.png" class="img-fluid rounded-start" alt="...">
+                            <img src="/bolsas-cafe.png" class="img-fluid rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                             <div class="card-body">
@@ -223,7 +223,7 @@
                 <div class="card mb-3 bg-black rounded-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="d-flex align-items-center col-md-4 p-1 colorImage rounded-start-2">
-                            <img src="../assets/image/bolsas-café2.png" class="img-fluid rounded-start" alt="...">
+                            <img src="/bolsas-cafe2.png" class="img-fluid rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                             <div class="card-body">
@@ -243,7 +243,7 @@
                     <div class="card mb-3 bg-black" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="d-flex align-items-center col-md-4 p-1 colorImage rounded-start-2">
-                            <img src="../assets/image/bolsas-café.png" class="img-fluid rounded-start" alt="...">
+                            <img src="/bolsas-cafe.png" class="img-fluid rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                             <div class="card-body">
@@ -260,7 +260,7 @@
                 <div class="card mb-3 bg-black" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="d-flex align-items-center col-md-4 p-1 colorImage rounded-start-2">
-                        <img src="../assets/image/bolsas-café2.png" class="img-fluid rounded-start" alt="...">
+                        <img src="/bolsas-cafe2.png" class="img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-8">
                         <div class="card-body">

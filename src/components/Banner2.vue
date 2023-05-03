@@ -2,7 +2,7 @@
   <div
     id="banner-2"
     style="position: relative; height: 400px"
-    class="text-white"
+    class="text-white py-5 my-5"
   >
     <div
       style="
@@ -65,9 +65,5 @@ export default {
   display: block;
   background-color: #bb916d;
 }
-.container-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
+
 </style>
