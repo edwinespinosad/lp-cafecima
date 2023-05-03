@@ -17,12 +17,8 @@ import ButtonWA from "./components/ButtonWA.vue";
     <Navbar></Navbar>
     <Slider :wa="whatsapp" />
     <SliderBag />
-<<<<<<< HEAD
     <SliderBag2 />
     <Banner />
-=======
-    <Banner :wa="whatsapp"/>
->>>>>>> b6172d3762c9ef37d789c86ce6d5a5106bff703f
     <videoCafeSrc />
     <Banner2 :wa="whatsapp"/>
     <Contact></Contact>
