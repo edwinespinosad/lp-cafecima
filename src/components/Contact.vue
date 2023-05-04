@@ -1,5 +1,5 @@
 <template>
-  <v-row class="vh-85 my-5 py-5" id="contact">
+  <v-row class="vh-85 my-5 py-5 mx-0" id="contact">
     <v-col cols="5" class="p-0">
       <v-img class="vh-85" src="/contacto.jpg" cover></v-img>
     </v-col>
