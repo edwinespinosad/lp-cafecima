@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-:root {
-  --primary: #1A1A1A;
-}
-
 * {
   font-family: 'Raleway', sans-serif;
 }
 
 .background-primary {
-  background-color: var(--primary) !important;
+  background-color: #1A1A1A !important;
 }
 
 .bg-app {
@@ -46,6 +42,14 @@ p {
 
 .navbar-toggler {
   border: 1px solid white;
+}
+.navbar{
+  transition: transform 0.3s ease-out, position 0.3s ease-out;
+}
+.navbar-hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-out, position 0.3s ease-out;
+
 }
 
 .container-grid {
@@ -87,10 +91,24 @@ p {
   content: "\F043D";
   color: #BB916D;
 }
-
+.contact-full{
+  display: block;
+}
+.contact-phone{
+  display: none !important;
+}
 @media (min-width: 100px) and (max-width: 380px) {
   .w-img {
     width: 100px !important;
+  }
+  .vh-85{
+    height: 100vh !important;
+  }
+  .contact-full{
+    display: none !important;
+  }
+  .contact-phone{
+    display: block !important;
   }
 }
 

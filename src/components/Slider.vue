@@ -60,7 +60,7 @@ export default {
   },
   data() {
     return {
-      selected: 0,
+      selected: "0",
       model: 0,
       whatsapp: "https://wa.me/c/5214421681339",
       items: [

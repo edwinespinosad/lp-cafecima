@@ -4,7 +4,7 @@ import Slider from "./components/Slider.vue";
 import Banner from "./components/Banner.vue";
 import Banner2 from "./components/Banner2.vue";
 import SliderBag from "./components/SliderBag.vue";
-import videoCafeSrc from "./components/VideoCafe.vue";
+import Video from "./components/Video.vue";
 import Footer from "./components/Footer.vue";
 import Contact from "./components/Contact.vue";
 import ButtonWA from "./components/ButtonWA.vue";
@@ -15,9 +15,9 @@ import ButtonWA from "./components/ButtonWA.vue";
     <Navbar></Navbar>
     <Slider :wa="whatsapp" />
     <SliderBag />
-    <Banner :wa="whatsapp"/>
-    <!-- <videoCafeSrc /> -->
-    <Banner2 :wa="whatsapp"/>
+    <Banner :wa="whatsapp" />
+    <Video />
+    <Banner2 :wa="whatsapp" />
     <Contact></Contact>
     <Footer />
     <ButtonWA></ButtonWA>
